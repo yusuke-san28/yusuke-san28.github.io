@@ -4,77 +4,99 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>山田太郎のポートフォリオサイト</title>
+  <title>DTFNTR - 目黒のアンティーク家具専門店</title>
   <link rel="icon" href="img/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
     <div class="container">
-      <div>
-        <img src="img/taro.png" 
-        alt="太郎のアイコン"
-        width="120"
-        height="120"
-        class="icon">
-      </div>
-      <div>
-        <h1>山田太郎</h1>
-        <p>UI/UXデザイナー見習いです</p>
+      <a href="index.html">
+        <h1>
+          <img src="img/logo.png" 
+          alt="DTFNTR"
+          width="168"
+          height="48">
+        </h1>
+      </a>
+      <form action="">
+        <input type="text" name="" id="">
+        <button><i class="bi bi-search"></i></button>
+      </form>
+
+      <nav>
         <ul>
           <li>
             <a href="#">
-              <img 
-              src="img/blog.png" 
-              alt="ブログアイコン"
-              width="20"
-              height="20">
+              <i class="bi bi-person-circle"></i>
+              ログイン
             </a>
           </li>
           <li>
             <a href="#">
-              <img 
-              src="img/photos.png" 
-              alt="写真アイコン"
-              width="20"
-              height="20">
+              <i class="bi bi-cart4"></i>
+              カート
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
-  <main>
+  <section class="hero">
+    <img src="img/hero1.png" alt="素敵なソファ">
+  </section>
+  <section class="products">
     <div class="container">
-      <h1>WORKS</h1>
-      <section>
-        <img src="img/work1.png"
-        alt="勇者ゲーム"
-        width="400"
-        height="225">
-        <h2>勇者のゲーム</h2>
-        <p>凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。</p>
-      </section>
-      <section>
-        <img src="img/work2.png"
-        alt="宝探しのゲーム"
-        width="400"
-        height="225">
-        <h2>宝探しのゲーム</h2>
-        <p>凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。</p>
-      </section>
-      <section>
-        <img src="img/work3.png"
-        alt="神経衰弱"
-        width="400"
-        height="225">
-        <h2>神経衰弱</h2>
-        <p>凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。凄いゲームです。</p>
-      </section>
-    </div>  
-  </main>
+      <h1>OUR ITEMS</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/pic1.png" alt="素敵な家具">
+            <h2>素敵な家具</h2>
+            <p>20,000円</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/pic2.png" alt="素敵な家具">
+            <h2>素敵な家具</h2>
+            <p>20,000円</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/pic3.png" alt="素敵な家具">
+            <h2>素敵な家具</h2>
+            <p>20,000円</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/pic4.png" alt="素敵な家具">
+            <h2>素敵な家具</h2>
+            <p>20,000円</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/pic5.png" alt="素敵な家具">
+            <h2>素敵な家具</h2>
+            <p>20,000円</p>
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="more"></a>
+    </div>
+  </section>
   <footer>
-    <small>(c)dotinstall.com</small>
+    <div class="container">
+      <small>(c)dotinstall.com</small>
+      <ul>
+        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 </html>
